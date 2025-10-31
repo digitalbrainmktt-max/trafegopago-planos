@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Que Está Incluso</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            padding: 35px 80px;
+        }
+        
+        .page-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #00FF87;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .page-subtitle {
+            font-size: 18px;
+            color: #666666;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card {
+            background: #F8F9FA;
+            border: 2px solid #E0E0E0;
+            padding: 22px 20px;
+            text-align: center;
+        }
+        
+        .benefit-icon {
+            font-size: 42px;
+            color: #00D9FF;
+            margin-bottom: 12px;
+        }
+        
+        .benefit-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 10px;
+        }
+        
+        .benefit-description {
+            font-size: 15px;
+            color: #666666;
+            line-height: 1.5;
+        }
+        
+        .footer-note {
+            text-align: center;
+            font-size: 16px;
+            color: #1A1A1A;
+            padding: 15px;
+            background: #F0FFF4;
+            border: 2px solid #00FF87;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <h1 class="page-title">O Que Está Incluso em Todos os Planos</h1>
+        <p class="page-subtitle">
+            Garantia de <strong style="color: #00D9FF;">qualidade</strong> e <strong style="color: #00FF87;">resultados</strong> em cada investimento
+        </p>
+        
+        <!-- Benefits Grid -->
+        <div class="benefits-grid">
+            <!-- Relatórios Detalhados -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="benefit-title">Relatórios Detalhados</h3>
+                <p class="benefit-description">
+                    Acompanhamento completo de métricas: impressões, cliques, CTR, CPC, conversões e ROAS com análise comparativa.
+                </p>
+            </div>
+            
+            <!-- Otimização Contínua -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3 class="benefit-title">Otimização Contínua</h3>
+                <p class="benefit-description">
+                    Ajustes regulares baseados em dados: refinamento de lances, pausas de anúncios ruins e realocação de budget.
+                </p>
+            </div>
+            
+            <!-- Estratégias Personalizadas -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h3 class="benefit-title">Estratégias Personalizadas</h3>
+                <p class="benefit-description">
+                    Cada negócio é único. Desenvolvemos estratégias customizadas alinhadas aos seus objetivos e público-alvo.
+                </p>
+            </div>
+            
+            <!-- Suporte WhatsApp -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h3 class="benefit-title">Suporte via WhatsApp</h3>
+                <p class="benefit-description">
+                    Comunicação direta e ágil com nossa equipe. Tire dúvidas, solicite ajustes e receba atualizações importantes.
+                </p>
+            </div>
+            
+            <!-- Análise de KPIs -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-analytics"></i>
+                </div>
+                <h3 class="benefit-title">Análise de KPIs</h3>
+                <p class="benefit-description">
+                    Monitoramento constante dos indicadores-chave de performance relevantes para seu negócio e resultados financeiros.
+                </p>
+            </div>
+            
+            <!-- Monitoramento de Concorrência -->
+            <div class="benefit-card">
+                <div class="benefit-icon">
+                    <i class="fas fa-binoculars"></i>
+                </div>
+                <h3 class="benefit-title">Monitoramento de Concorrência</h3>
+                <p class="benefit-description">
+                    Análise regular das estratégias dos concorrentes para identificar oportunidades e manter sua empresa à frente.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Footer Note -->
+        <div class="footer-note">
+            <i class="fas fa-shield-alt" style="color: #00FF87; font-size: 20px;"></i>
+            <strong style="color: #00FF87;"> Compromisso com resultados mensuráveis e transparência total</strong>
+        </div>
+    </div>
+</body>
+</html>

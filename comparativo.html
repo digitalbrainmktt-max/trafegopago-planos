@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativo de Planos - Parte 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            padding: 45px 70px;
+        }
+        
+        .page-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #00FF87;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .page-subtitle {
+            font-size: 18px;
+            color: #666666;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #E0E0E0;
+            margin-bottom: 25px;
+        }
+        
+        .comparison-table th {
+            padding: 16px 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+        
+        .comparison-table th:first-child {
+            background: #1A1A1A;
+            text-align: left;
+            padding-left: 20px;
+        }
+        
+        .comparison-table th.plan-basic {
+            background: #00FF87;
+            color: #1A1A1A;
+        }
+        
+        .comparison-table th.plan-intermediate {
+            background: #00D9FF;
+            color: #1A1A1A;
+        }
+        
+        .comparison-table th.plan-premium {
+            background: #FF6B35;
+        }
+        
+        .comparison-table th.plan-enterprise {
+            background: #10B981;
+        }
+        
+        .comparison-table td {
+            padding: 14px 10px;
+            text-align: center;
+            border: 1px solid #E0E0E0;
+            font-size: 15px;
+            color: #1A1A1A;
+        }
+        
+        .comparison-table td:first-child {
+            text-align: left;
+            font-weight: 600;
+            padding-left: 20px;
+            background: #F8F9FA;
+        }
+        
+        .comparison-table tr:nth-child(even) td {
+            background: #FAFAFA;
+        }
+        
+        .comparison-table tr:nth-child(even) td:first-child {
+            background: #F0F0F0;
+        }
+        
+        .price-cell {
+            font-weight: 700;
+            font-size: 18px;
+            color: #00FF87;
+        }
+        
+        .category-row td {
+            background: #E8F5E9 !important;
+            font-weight: 700;
+            color: #1A1A1A;
+            font-size: 16px;
+        }
+        
+        .category-row td:first-child {
+            background: #C8E6C9 !important;
+        }
+        
+        .continuation-note {
+            text-align: center;
+            font-size: 15px;
+            color: #666666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <h1 class="page-title">Comparativo de Planos - Parte 1</h1>
+        <p class="page-subtitle">Meta Ads e Google Ads</p>
+        
+        <!-- Comparison Table -->
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th style="width: 25%;">Recurso</th>
+                    <th class="plan-basic" style="width: 18.75%;">Básico</th>
+                    <th class="plan-intermediate" style="width: 18.75%;">Intermediário</th>
+                    <th class="plan-premium" style="width: 18.75%;">Premium</th>
+                    <th class="plan-enterprise" style="width: 18.75%;">Enterprise</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Meta Ads Section -->
+                <tr class="category-row">
+                    <td colspan="5"><i class="fab fa-meta"></i> META ADS</td>
+                </tr>
+                <tr>
+                    <td>Valor Mensal</td>
+                    <td class="price-cell">R$ 897</td>
+                    <td class="price-cell">R$ 1.497</td>
+                    <td class="price-cell">R$ 2.497</td>
+                    <td class="price-cell">R$ 4.997</td>
+                </tr>
+                <tr>
+                    <td>Investimento Mínimo</td>
+                    <td>R$ 1.000</td>
+                    <td>R$ 3.000</td>
+                    <td>R$ 8.000</td>
+                    <td>R$ 20.000</td>
+                </tr>
+                <tr>
+                    <td>Campanhas Ativas</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>Ilimitado</td>
+                    <td>Ilimitado</td>
+                </tr>
+                <tr>
+                    <td>Criativos por Mês</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>Ilimitado</td>
+                </tr>
+                
+                <!-- Google Ads Section -->
+                <tr class="category-row">
+                    <td colspan="5"><i class="fab fa-google"></i> GOOGLE ADS</td>
+                </tr>
+                <tr>
+                    <td>Valor Mensal</td>
+                    <td class="price-cell">R$ 997</td>
+                    <td class="price-cell">R$ 1.697</td>
+                    <td class="price-cell">R$ 2.797</td>
+                    <td class="price-cell">R$ 5.497</td>
+                </tr>
+                <tr>
+                    <td>Investimento Mínimo</td>
+                    <td>R$ 1.500</td>
+                    <td>R$ 4.000</td>
+                    <td>R$ 10.000</td>
+                    <td>R$ 25.000</td>
+                </tr>
+                <tr>
+                    <td>Campanhas Ativas</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>Ilimitado</td>
+                    <td>Ilimitado</td>
+                </tr>
+                <tr>
+                    <td>Redes Google</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>Todas</td>
+                    <td>Todas</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- Continuation Note -->
+        <p class="continuation-note">
+            <i class="fas fa-arrow-right" style="color: #00FF87;"></i> 
+            Continua no próximo slide: Combo (Meta + Google) e Recursos e Suporte
+        </p>
+    </div>
+</body>
+</html>

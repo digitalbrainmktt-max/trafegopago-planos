@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossas Soluções</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            padding: 50px 80px;
+        }
+        
+        .page-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #00FF87;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .page-subtitle {
+            font-size: 22px;
+            color: #666666;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        
+        .solutions-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .solution-card {
+            background: #F8F9FA;
+            border: 3px solid #E0E0E0;
+            padding: 30px 25px;
+            text-align: center;
+        }
+        
+        .solution-card.highlight {
+            border-color: #00FF87;
+            background: #F0FFF4;
+        }
+        
+        .solution-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .solution-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 15px;
+        }
+        
+        .solution-description {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <h1 class="page-title">Nossas Soluções em Tráfego Pago</h1>
+        <p class="page-subtitle">Escolha a Plataforma Ideal para o Seu Negócio Crescer</p>
+        
+        
+        <!-- Solutions Grid -->
+        <div class="solutions-grid">
+            <!-- Meta Ads -->
+            <div class="solution-card">
+                <div class="solution-icon" style="color: #0084FF;">
+                    <i class="fab fa-meta"></i>
+                </div>
+                <h3 class="solution-title">Meta Ads</h3>
+                <p class="solution-description">
+                    Alcance seu público no <strong>Facebook</strong> e <strong>Instagram</strong> com campanhas segmentadas que convertem. Ideal para gerar awareness, engajamento e vendas diretas.
+                </p>
+            </div>
+            
+            <!-- Google Ads -->
+            <div class="solution-card">
+                <div class="solution-icon" style="color: #4285F4;">
+                    <i class="fab fa-google"></i>
+                </div>
+                <h3 class="solution-title">Google Ads</h3>
+                <p class="solution-description">
+                    Capture clientes no momento exato da intenção de compra através de <strong>Pesquisa</strong>, <strong>Display</strong>, <strong>YouTube</strong> e <strong>Shopping</strong>.
+                </p>
+            </div>
+            
+            <!-- Combo Integrado -->
+            <div class="solution-card highlight">
+                <div class="solution-icon" style="color: #00FF87;">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3 class="solution-title">Combo Integrado</h3>
+                <p class="solution-description">
+                    Estratégia <strong>omnichannel</strong> completa combinando Meta Ads e Google Ads para dominar o funil de vendas do topo ao fundo com <strong>economia</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Intermediário - Valores</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            padding: 50px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .plan-title {
+            font-size: 36px;
+            font-weight: 800;
+            color: #00FF87;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .plan-subtitle {
+            font-size: 18px;
+            color: #666666;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .price-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .price-card {
+            background: #F8F9FA;
+            border: 2px solid #E0E0E0;
+            padding: 35px 25px;
+            text-align: center;
+        }
+        
+        .price-card.highlight {
+            border-color: #00FF87;
+            background: #F0FFF4;
+        }
+        
+        .price-card h3 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 20px;
+        }
+        
+        .price-card .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .price-details {
+            font-size: 15px;
+            color: #666666;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .price-amount {
+            font-size: 42px;
+            font-weight: 800;
+            color: #00FF87;
+            margin-bottom: 8px;
+        }
+        
+        .price-period {
+            font-size: 16px;
+            color: #666666;
+        }
+        
+        .savings-badge {
+            background: #FF6B35;
+            color: #FFFFFF;
+            padding: 6px 18px;
+            font-size: 13px;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Header -->
+        <h1 class="plan-title">Plano Intermediário - Valores</h1>
+        <p class="plan-subtitle">Escolha a melhor opção para acelerar seu crescimento</p>
+        
+        <!-- Price Cards -->
+        <div class="price-cards">
+            <!-- Meta Ads -->
+            <div class="price-card">
+                <div class="icon" style="color: #0084FF;">
+                    <i class="fab fa-meta"></i>
+                </div>
+                <h3>Meta Ads Intermediário</h3>
+                <div class="price-details">
+                    <strong>Investimento mínimo:</strong><br/>
+                    R$ 3.000/mês em mídia<br/>
+                    3 campanhas • 10 criativos
+                </div>
+                <div class="price-amount">R$ 1.497</div>
+                <div class="price-period">/mês</div>
+            </div>
+            
+            <!-- Google Ads -->
+            <div class="price-card">
+                <div class="icon" style="color: #4285F4;">
+                    <i class="fab fa-google"></i>
+                </div>
+                <h3>Google Ads Intermediário</h3>
+                <div class="price-details">
+                    <strong>Investimento mínimo:</strong><br/>
+                    R$ 4.000/mês em mídia<br/>
+                    3 campanhas • 2 redes
+                </div>
+                <div class="price-amount">R$ 1.697</div>
+                <div class="price-period">/mês</div>
+            </div>
+            
+            <!-- Combo -->
+            <div class="price-card highlight">
+                <div class="icon" style="color: #00FF87;">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h3>Combo Intermediário</h3>
+                <div class="price-details">
+                    <strong>Investimento mínimo:</strong><br/>
+                    R$ 6.000/mês em mídia<br/>
+                    Estratégia omnichannel
+                </div>
+                <div class="price-amount">R$ 2.697</div>
+                <div class="price-period">/mês</div>
+                <span class="savings-badge">ECONOMIZE R$ 497</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

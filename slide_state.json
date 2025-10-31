@@ -1,0 +1,116 @@
+{
+  "project_info": {
+    "title": "Capa",
+    "created": 1761915420.2623165,
+    "last_updated": 1761915672.3555942,
+    "total_slides": 13
+  },
+  "slides": {
+    "capa": "edited",
+    "solucoes": "edited",
+    "plano_basico": "edited",
+    "plano_intermediario": "edited",
+    "plano_intermediario_cont": "edited",
+    "plano_premium": "edited",
+    "plano_enterprise": "edited",
+    "plano_enterprise_cont": "edited",
+    "comparativo": "edited",
+    "comparativo_cont": "edited",
+    "inclusos": "edited",
+    "por_que_escolher": "edited",
+    "contato": "edited"
+  },
+  "outline": [
+    {
+      "id": "capa",
+      "title": "Capa",
+      "summary": "Apresentação da Digital Brain MKT com logo, título principal e informações de contato.",
+      "image_plan": "/home/ubuntu/upload/PostInstagramMarketingDigitalEstratégiasdeVendaVerde(4).png - Image 1 is the company logo (Digital Brain MKT) and is perfect for the cover slide.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "solucoes",
+      "title": "Nossas Soluções",
+      "summary": "Apresentação das três soluções: Meta Ads, Google Ads e Combo Integrado com descrições.",
+      "image_plan": "/home/ubuntu/upload/search_images/YrNit2he2MUn.jpg - Slide 2 introduces the two main platforms (Meta Ads and Google Ads) and their combination. Image 8 clearly shows the logos of Meta and Google together, representing the solutions offered.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "plano_basico",
+      "title": "Plano Básico",
+      "summary": "Detalhes do Plano Básico com valores para Meta Ads, Google Ads e Combo.",
+      "image_plan": "/home/ubuntu/upload/search_images/w61NwXkdM6Md.jpg - Slide 3 is about the \"Plano Básico\" (Basic Plan) and starting the digital journey, which implies initial growth. Image 14 is a professional graphic illustrating financial growth and success, suitable for a plan focused on real results.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "plano_intermediario",
+      "title": "Plano Intermediário",
+      "summary": "Apresentação do Plano Intermediário com título, subtítulo, descrição do público-alvo e grid de 6 features principais (3 campanhas ativas, 10 criativos/mês, relatórios quinzenais, otimização 3x/semana, segmentação avançada, suporte prioritário).",
+      "image_plan": "/home/ubuntu/upload/search_images/gKvOHTRWvy9V.jpg - Business growth chart representing acceleration and expansion for the Intermediate Plan.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "plano_intermediario_cont",
+      "title": "Plano Intermediário - Valores",
+      "summary": "Continuação do Plano Intermediário apresentando os três cards de preços lado a lado: Meta Ads Intermediário (R$ 1.497/mês, investimento mínimo R$ 3.000), Google Ads Intermediário (R$ 1.697/mês, investimento mínimo R$ 4.000) e Combo Intermediário (R$ 2.697/mês com economia de R$ 497, investimento mínimo R$ 6.000).",
+      "slide_template_key": "",
+      "image_plan": ""
+    },
+    {
+      "id": "plano_premium",
+      "title": "Plano Premium",
+      "summary": "Detalhes do Plano Premium com recursos avançados e valores.",
+      "image_plan": "/home/ubuntu/upload/search_images/gAlBZR3GzJWs.jpg - Slide 5 is the \"Plano Premium\" focused on maximizing results and exceptional performance. Image 15 is a strong \"Year over Year\" business growth graph, symbolizing the maximization of results.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "plano_enterprise",
+      "title": "Plano Enterprise - Preços",
+      "summary": "Primeira parte do Plano Enterprise apresentando o título com badge 'SOLUÇÃO CORPORATIVA', subtítulo sobre domínio de mercado, descrição da solução enterprise completa, e os três cards de preços lado a lado: Meta Ads Enterprise (R$ 4.997/mês, investimento mínimo R$ 20.000), Google Ads Enterprise (R$ 5.497/mês, investimento mínimo R$ 25.000), e Combo Full Enterprise (R$ 8.997/mês com economia de R$ 1.497, investimento mínimo R$ 40.000). Cada card deve incluir lista de features (gestão completa, criativos/anúncios ilimitados, relatórios personalizados, otimização, integração, equipe dedicada, consultoria estratégica).",
+      "image_plan": "",
+      "slide_template_key": ""
+    },
+    {
+      "id": "plano_enterprise_cont",
+      "title": "Plano Enterprise - Diferenciais",
+      "summary": "Continuação do Plano Enterprise focando exclusivamente nos diferenciais enterprise exclusivos. Apresentar título 'DIFERENCIAIS ENTERPRISE EXCLUSIVOS' com ícone de estrela, seguido de um grid horizontal com 4 diferenciais: 1) Equipe Dedicada Multidisciplinar (ícone users-cog), 2) BI Customizado com Análise Preditiva (ícone chart-line), 3) Consultoria Estratégica Executiva (ícone handshake), 4) Integração Total com Sistemas Corporativos (ícone cogs). Cada diferencial deve ter ícone grande em azul ciano (#00D9FF) e texto descritivo abaixo. Design limpo e profissional com fundo branco, bordas simples e destaque em verde (#00FF87).",
+      "slide_template_key": "",
+      "image_plan": ""
+    },
+    {
+      "id": "comparativo",
+      "title": "Comparativo de Planos - Parte 1",
+      "summary": "Primeira parte da tabela comparativa dos 4 planos (Básico, Intermediário, Premium, Enterprise) focando em Meta Ads e Google Ads. Inclui título, subtítulo e tabela com as seções: Meta Ads (valor mensal, investimento mínimo, campanhas ativas, criativos por mês) e Google Ads (valor mensal, investimento mínimo, campanhas ativas, redes Google).",
+      "image_plan": "Nenhuma imagem necessária - slide focado em tabela de dados comparativos.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "comparativo_cont",
+      "title": "Comparativo de Planos - Parte 2",
+      "summary": "Continuação da tabela comparativa dos 4 planos mostrando as seções restantes: Combo (Meta + Google) com valores mensais e economia de cada plano, e Recursos e Suporte comparando relatórios, otimização e gestor dedicado entre os 4 níveis de planos.",
+      "slide_template_key": "",
+      "image_plan": "Nenhuma imagem necessária - continuação da tabela de dados comparativos."
+    },
+    {
+      "id": "inclusos",
+      "title": "O Que Está Incluso",
+      "summary": "Benefícios inclusos em todos os planos: relatórios, otimização, estratégias, suporte, KPIs e monitoramento.",
+      "image_plan": "/home/ubuntu/upload/search_images/jsoJGJiFzsMM.webp - Slide 8 details the inclusions in all plans, emphasizing quality, results, and support (like detailed reports, continuous optimization, and WhatsApp support). Image 27 focuses on \"Good Customer Service\" benefits, which aligns with the commitment to quality and support.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "por_que_escolher",
+      "title": "Por Que Escolher",
+      "summary": "Diferenciais da Digital Brain MKT: experiência, transparência, resultados e suporte dedicado.",
+      "image_plan": "/home/ubuntu/upload/search_images/N0yx6CHZdeDK.jpg - Slide 9 focuses on \"Why Choose Digital Brain MKT,\" highlighting partnership, intelligence, and proven results. Image 32 is a professional image of a business partnership handshake over a city backdrop, symbolizing trust, partnership, and growth.",
+      "slide_template_key": ""
+    },
+    {
+      "id": "contato",
+      "title": "Contato",
+      "summary": "Call to action final com informações de contato: WhatsApp, Instagram e site.",
+      "image_plan": "/home/ubuntu/upload/search_images/1wSY0wsKPTu5.jpg - Slide 10 is the final call to action (\"Vamos Crescer Juntos\"). Image 40 is a clear \"Let's Work Together\" graphic, which perfectly matches the message of the closing slide.",
+      "slide_template_key": ""
+    }
+  ]
+}
